@@ -1,0 +1,53 @@
+.first{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    margin: 2%;
+}
+.second{
+    border-style: solid;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+    font-size: 20px;
+}
+a{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.third{
+    font-size: large;
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+.fourth{
+    border-style: solid;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+li{
+    display: inline;
+    margin: 10px;
+    padding: 20px;
+    color: gray;
+}
+ul{
+    text-align: center;
+    padding-top: 10px;
+}
+li:hover{
+    color: white;
+}
+body{
+    size: 10%;
+}
+hr{
+    color: white;
+}
