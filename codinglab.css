@@ -33,3 +33,54 @@ a{
     color: white;
     font-size: 20px;
 }
+h2{
+    color: white;
+    text-align: center;
+    animation-name: heading;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading{
+    0%{
+        color: red;
+    }
+    50%{
+        color: gold;
+    }
+    100%{
+        color: blue;
+    }
+}
+.lable{
+    border: solid none;
+    width: fit-content;
+    font-size: 70px;
+    height: 500px;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    background-size: auto;
+}
+input{
+    width: 300px;
+    height: 23px;
+    position: relative;
+    bottom: 100px;
+}
+a{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+button{
+    position: relative;
+    left: 125px;
+    bottom: 100px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+a{
+    position: relative;
+    left: 80px;
+}
