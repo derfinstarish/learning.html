@@ -2,6 +2,13 @@ body{
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+    background-color: wheat;
+    border: solid none;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+   box-shadow:  0 8px 8px 0 rgba(7, 0, 0, 0.2);
+
 }
 .main{
     width: 100%;
@@ -10,6 +17,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: center;
 }
 .cover{
     display: block;
@@ -17,13 +25,12 @@ body{
     display: flex;
     margin: auto;
     border-radius: 10px;
-    border: solid white;
 }
 .profile{
-   width: 10%;
-   height: 150px;
+   width: 40%;
+   height: 200px;
    border-radius: 50%;
-    display: flex;
+   display: flex;
    margin: auto;
    position: relative;
    bottom: 50px;
@@ -52,22 +59,30 @@ button{
     background: whitesmoke;
     border: solid white;
     padding: 5px;
-  
+    position: relative;
+    bottom: 30px;
     text-align: center;
     font-weight: bold;
     border-radius: 10px;
     display: flex;
     margin: auto;
 }
-i{
+button:hover{
+    background-color: darkgray;
+}
+a{
     padding: 15px;
    margin: 15px;
-    
-
+   text-decoration: none;
+   color: black;
+}
+a:hover{
+    color: white;
 }
 .icons{
     position: relative;
-    left: 520px;
+    left: 90px;
+    bottom: 10px;
 }
 
 
